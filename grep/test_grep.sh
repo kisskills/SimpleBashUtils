@@ -69,7 +69,7 @@ do
           fi
           rm s21_grep.txt grep.txt
 
-          TEST5="-e regex -e ^print s21_grep.c $var $var2 $var3 -f pattern.txt"
+          TEST5="-e regex -e ^print s21_grep.c $var $var2 $var3 -f pattern1.txt"
           echo "$TEST5"
           ./s21_grep $TEST5 > s21_grep.txt
           grep $TEST5 > grep.txt
